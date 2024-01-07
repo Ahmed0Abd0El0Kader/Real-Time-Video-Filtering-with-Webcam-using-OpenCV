@@ -85,8 +85,9 @@ while source.isOpened():
 
         cv2.imshow(win_name, result)
         out_mp4.write(result)
-
+        # Use Keyboard keys to use FILTERS 
         key = cv2.waitKey(1)
+        # Press "Q" , "q" and "Esc" to exit the program
         if key == ord("Q") or key == ord("q") or key == 27:
             break
         elif key == ord("C") or key == ord("c"):
