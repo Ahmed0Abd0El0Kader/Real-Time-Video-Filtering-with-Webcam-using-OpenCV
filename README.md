@@ -14,6 +14,7 @@ The project incorporates several filtering techniques to enhance video frames ca
 
 4. Blur Filtering: The project employs various blur filters, such as Gaussian blur or median blur, to reduce noise and smooth out the video frames. Blurring can help in reducing image artifacts and enhancing image quality.
 
+5. Using Keyboard keys to use the filters
 To achieve real-time performance, the project utilizes the OpenCV library, which provides optimized functions for computer vision tasks, and NumPy for efficient numerical computations. The time library is used to measure and display the frame processing time, allowing users to evaluate the performance of different filters.
 
 The resulting application provides a user-friendly interface with live video streaming from the webcam and interactive controls to toggle between different filters. Users can adjust filter parameters and observe the real-time effects on the video stream. The project is a great opportunity for beginners to explore computer vision concepts and gain hands-on experience with popular libraries.
